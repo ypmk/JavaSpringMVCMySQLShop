@@ -1,0 +1,72 @@
+@font-face{
+    font-family: headFont;
+    src:url(ui/fonts/Summer-Vibes-OTF.otf);
+}
+
+@font-face{
+    font-family: myFont;
+    src:url(ui/fonts/OpenSans-Regular.ttf);
+}
+
+#wrapper{
+    max-width: 900px;
+    min-height: 500px;
+    display:flex;
+    margin: auto;
+    color: white;
+    font-family: myFont;
+}
+
+#left_pannel{
+    min-height: 500px;
+    background-color: #27344b;
+    flex: 1;
+    text-align: center;
+}
+
+#left_pannel img{
+    width: 50%;
+    border: solid thin white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#user_wrap{
+    padding: 10px;
+}
+
+#user_wrap span{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+#right_pannel{
+    min-height: 500px;
+    flex: 4;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+#header{
+    background-color: #485b6c;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    font-family: headFont;
+}
+
+#inner_left_pannel{
+    background-color: #383e48;
+    min-height: 70px;
+    flex: 1;
+}
+
+#inner_right_pannel{
+    background-color: #f2f7f8;
+    flex: 2;
+    min-height: 430px;
+}
+
