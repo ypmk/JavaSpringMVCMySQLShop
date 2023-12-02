@@ -2,7 +2,7 @@
 
 // setting up the time Zone
 //Europe/Moscow not work correctly so because set that region
-define('TIMEZONE', 'Africa/Addis_Ababa');
+define('TIMEZONE', 'Europe/Moscow');
 date_default_timezone_set(TIMEZONE);
 
 function last_seen($date_time){
